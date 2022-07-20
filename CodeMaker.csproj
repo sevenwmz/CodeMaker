@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TemplateClass - 副本.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.0.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.0.1" />
+    <PackageReference Include="System.CodeDom" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
